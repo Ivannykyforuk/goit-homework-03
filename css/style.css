@@ -231,6 +231,7 @@ body {
 /* ======Футер====== */
 .bottom {
     background: #2E2F42;
+    padding: 100px 0;
 }
 
 .logo {
@@ -268,10 +269,10 @@ body {
     letter-spacing: 0.02em;
 }
 
-.container-footer {
+/* .container-footer {
     padding: 100px 0;
 
-}
+} */
 
 .container-logo {
     display: inline-block;
