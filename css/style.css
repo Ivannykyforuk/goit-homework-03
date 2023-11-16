@@ -190,6 +190,24 @@ body {
 }
 
 /* Переваги */
+.container-advantages {
+
+    padding: 120px 0;
+}
+
+.advantages-container-list {
+    display: flex;
+    gap: 24px;
+}
+
+.list-item {
+    width: calc((100% - 72px) / 4);
+}
+
+.advantages-container-list-title {
+    margin-bottom: 8px;
+}
+
 .list-title {
     color: #2E2F42;
     font-size: 20px;
