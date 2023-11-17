@@ -54,7 +54,7 @@ body {
 }
 
 .container {
-    width: 1157px;
+    width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -98,6 +98,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 40px;
 }
 
 .page-navigation {
@@ -150,6 +151,7 @@ body {
 .contacts {
     font-style: normal;
     display: flex;
+    gap: 40px;
 
 }
 
