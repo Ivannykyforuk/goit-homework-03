@@ -194,6 +194,7 @@ body {
     max-width: 496px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 48px;
 }
 
 .container-hero-buttom {
@@ -251,6 +252,20 @@ body {
     margin-bottom: 8px;
 }
 
+.container-our-team-list {
+    display: flex;
+    gap: 24px;
+}
+
+.list-our-team {
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.container-our-team-title {
+    padding: 32px 0;
+}
+
 .list-title {
     color: #2E2F42;
     font-size: 20px;
@@ -258,6 +273,8 @@ body {
     line-height: 1.2;
     /* 120% */
     letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 8px;
 }
 
 .list-text {
@@ -267,11 +284,17 @@ body {
     line-height: 1.5;
     /* 150% */
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 /* Команда */
 .our-team {
-    background-color: #F4F4FD
+    background-color: #F4F4FD;
+    padding: 120px 0;
+}
+
+.container-our-team {
+    margin-bottom: 72px;
 }
 
 .section-title {
