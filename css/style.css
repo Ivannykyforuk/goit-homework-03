@@ -98,7 +98,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 40px;
+
 }
 
 .page-navigation {
@@ -110,7 +110,7 @@ body {
 
 .menu {
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
 
 }
 
@@ -151,13 +151,13 @@ body {
 .contacts {
     font-style: normal;
     display: flex;
-    gap: 40px;
+
 
 }
 
 .contacts-list {
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
 }
 
 .contatact-item {
