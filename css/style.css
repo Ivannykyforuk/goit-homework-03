@@ -332,6 +332,38 @@ body {
     letter-spacing: 0.02em;
 }
 
+/* =============Portfolio=========== */
+.our-portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.container-our-portfolio {
+    margin-bottom: 72px;
+}
+
+.container-our-portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.list-our-portfolio {
+    width: calc((100% - 48px) / 3);
+}
+
+.container-our-portfolio-title {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+
+}
+
+.container-our-portfolio-title-1 {
+    margin-bottom: 8px;
+}
+
 /* ======Футер====== */
 .bottom {
     background: #2E2F42;
